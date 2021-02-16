@@ -25,7 +25,7 @@ class DataAnalysis:
   def __init__(self):
 
     #load excel data (CSV format) to dataframe - 'df'
-    dataframe = pd.read_csv('MonthyVisitors.csv')
+    dataframe = pd.read_csv('MonthlyVisitors.csv')
     #show specific country dataframe
     sortCountry(dataframe)
 #########################################################################
